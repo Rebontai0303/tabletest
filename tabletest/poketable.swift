@@ -22,11 +22,11 @@ class poketable: UIViewController {
     
     func createArray() -> [Poke] {
 
-        let ppic1 = Poke(image: UIImage(named:"pk001")!, title: "妙蛙種子")
-        let ppic2 = Poke(image: UIImage(named:"pk002")!, title: "My Dev Setup")
-        let ppic3 = Poke(image: UIImage(named:"pk003")!, title: "iOS Interview")
-        let ppic4 = Poke(image: UIImage(named:"pk004")!, title: "Buttons in TableViews")
-        let ppic5 = Poke(image: UIImage(named:"pk005")!, title: "UIPickerView Tutorial")
+        let ppic1 = Poke(image: pk001, title: "妙蛙種子")
+        let ppic2 = Poke(image: pk002, title: "My Dev Setup")
+        let ppic3 = Poke(image: pk003, title: "iOS Interview")
+        let ppic4 = Poke(image: pk004, title: "Buttons in TableViews")
+        let ppic5 = Poke(image: pk005, title: "UIPickerView Tutorial")
         
         
         return [ppic1, ppic2, ppic3, ppic4, ppic5]
